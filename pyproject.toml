@@ -1,7 +1,7 @@
 [project]
 name = "ai-engine"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI Service Decomposition - The AI Service is further broken down into: Trading AI Service (active during trading sessions, dormant during learning periods), ChatBot AI Service (active only when users are actively engaging with it), and Learning AI Service (active during non-trading periods, alternating with Trading AI Service). This alternating activation pattern between Trading and Learning services allows us to optimize resource usage, as they don't need to run simultaneously. The ChatBot service scales independently based on actual user interaction."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
